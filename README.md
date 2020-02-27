@@ -1,5 +1,6 @@
 # OracleDB_Basic
 
+MEMO : 
 select * from customer cs
 where exists(select * from orders od where od.custid=cs.custid);
 
